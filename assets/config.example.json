@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "package": "com.ss.android.ugc.aweme",
+  "swipes": {
+    "next": {
+      "start": [0.5, 0.75],
+      "end": [0.5, 0.25],
+      "duration_ms": 350
+    },
+    "previous": {
+      "start": [0.5, 0.25],
+      "end": [0.5, 0.75],
+      "duration_ms": 350
+    }
+  },
+  "positions": {
+    "like": [0.91, 0.48],
+    "follow": [0.91, 0.35],
+    "comment_button": [0.91, 0.58],
+    "comment_input": [0.5, 0.94],
+    "comment_send": [0.93, 0.94]
+  },
+  "limits": {
+    "like": 3,
+    "follow": 1,
+    "comment": 1,
+    "tap": 3
+  },
+  "token_ttl_seconds": 300,
+  "input_backend": "auto",
+  "comment_wait_seconds": 0.25
+}
